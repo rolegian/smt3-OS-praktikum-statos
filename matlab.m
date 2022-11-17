@@ -1,5 +1,8 @@
 % modul 5
+% Muhamad Alfren rolegian
+% 12921010
 %% No 1
+% Jenis kasus: Variansi populasi 1 dan populasi 2 tidak diketahui dan dianggap sama.
 desa= [385,392,363,419,321,192,442,202,198,202,153,180,432,278,278];
 kota= [203,372,234,188,133,375,206,182,318,426,278,183,191,133,284];
 
@@ -12,7 +15,7 @@ v = n1+n2-2;
 s1= std(desa);
 s2= std(kota);
 alpha= 0.01;
-sp= sqrt(((n1-1)*(s1^2))+((n2-1)*(s2^2))/v);
+sp= sqrt((((n1-1)*(s1^2))+((n2-1)*(s2^2)))/v);
 
 
 ttab =icdf('T', alpha/2, v);
