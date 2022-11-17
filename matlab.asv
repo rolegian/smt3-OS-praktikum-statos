@@ -22,7 +22,7 @@ thit =((xbar1-xbar2)-miunol)/sp ;
 
 
 
-
+disp(xbar)
 
 %% no 2
 % jenis kasus: kasus uji hipotesis tentang variansi untuk 1 populasi.
@@ -46,12 +46,13 @@ cihit = ((n-1)*(skuadrat^2))/(sigmanol^2);
 dataisikaleng= [10.2,9.7,10.1,10.3,10.1,9.8,9.9,10.4,10.3,9.8];
 
 xbar_isi=mean(dataisikaleng);
-miunol_no4=1.75;
+miunol=1.75;
 sdv_isi=std(dataisikaleng);
-n4= 10;
+n= 10
 alpha = 0.05;
-v_4=n-1;
+v=n-1;
 
-ttab_no4 =icdf('T', alpha/2, v_4);
-thit_no4 =(xbar_isi - miunol_no4)/(sdv_isi/(sqrt(n4)));
+ttab =icdf('T', alpha/2, v);
+thit =(xbar_isi - miunol)/(sdv
+;
 
